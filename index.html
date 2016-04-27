@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--
+Copyright Bradley Cox 2016
+-->
+<html>
+    <head>
+        <title>Bradley Cox Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+            
+            a,
+            h3,
+            h4{
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+            h1{
+                font-family: "Shadows Into Light", cursive;
+            }
+            .center{
+                margin: auto;
+            }
+            .navbar {
+                margin-bottom: 0;
+                border-radius: 0;
+            }
+            body{
+                background: url(img/bg.png) no-repeat center fixed;
+                background-size: cover;
+            }
+            .bg-overlay {
+                background:rgba(0,0,0, 0.3);
+            }
+            .home-title {
+                position: relative;
+                padding-top: 10%;
+                padding-bottom: 5%;
+            }
+            .portfolio-title{
+                position: relative;
+                padding-top: 5%;
+                padding-bottom: 5%;           
+            }
+            .contact-title{
+                position: relative;
+                padding-top: 5%;
+                padding-bottom: 10%;           
+            }
+            
+            @media (min-width: 768px) {
+                .navbar .navbar-nav {
+                    display: inline-block;
+                    float: none;
+                    vertical-align: top;
+                }
+
+                .navbar .navbar-collapse {
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!--navbar-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav center">
+                        <li><a href="#home" class="navLink" data-toggle="collapse" data-target="#myNavbar"><h4>Home</h4></a></li>
+                        <li><a href="#about" class="navLink" data-toggle="collapse" data-target="#myNavbar"><h4>About</h4></a></li>
+                        <li><a href="#portfolio" class="navLink" data-toggle="collapse" data-target="#myNavbar"><h4>Portfolio</h4></a></li>
+                        <li><a href="#contact" class="navLink" data-toggle="collapse" data-target="#myNavbar"><h4>Contact</h4></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--home-->
+        <a name="home"></a>
+        <div class="home">
+            <div class="bg-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="home-title">
+                                <div class="well well-sm row">
+                                    <h1 class="text-center">Bradley Cox</h1>
+                                    <img src="img/profile.jpg" class="center img-rounded img-responsive">
+                                    <h3 class="text-center">New Zealand web developer, specialising in front-end development and responsive design, using:<br>
+                                    </h3>
+                                    <ul class="list-group col-lg-4 col-lg-offset-4 text-center">
+                                        <li class="list-group-item">HTML</li>
+                                        <li class="list-group-item">CSS</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                        <li class="list-group-item">jQuery</li>
+                                        <li class="list-group-item">Bootstrap</li>
+                                        <li class="list-group-item">AngularJS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--About-->
+        <a name="about"></a>
+        <div class="about">
+            <div class="bg-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="portfolio-title">
+                                <div class="well">
+                                    <h1 class="text-center">About</h1><br>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                        <h3>Education:</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Port Vila International School, Port Vila, 2007-2012</li>
+                                            <li class="list-group-item">St Andrew's College, Christchurch, 2013-2015</li>
+                                        </ul>
+                                        <h3>Qualifications:</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">National Certificate of Educational Achievement (Level 1)</li>
+                                            <li class="list-group-item">National Certificate of Educational Achievement (Level 2) achieved with Merit</li>
+                                            <li class="list-group-item">National Certificate of Educational Achievement (Level 3)</li>
+                                        </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h3>Bio:</h3>
+                                            <p class="text-justify">
+                                                I am a recent school leaver looking for work in web and software development.
+                                                I enjoy working with computers and have experience in a range of programming languages,
+                                                such as HTML5, CSS3 (including Bootstrap), Javascript (including jQuery), and Python.<br>
+                                                In my spare time, I enjoy PC gaming, playing games like CounterStrike: Global Offensive,
+                                                Fallout, or new indie games. I also develop my own games for fun, using C# in the Unity Game Engine.
+                                                To stay active, I have a bodyweight workout routine and I run, having competed in relays in the past.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        
+        <!--portfolio-->
+        <a name="portfolio"></a>
+        <div class="portfolio">
+            <div class="bg-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="portfolio-title">
+                                <div class="well">
+                                    <h1 class="text-center">Portfolio</h1>
+                                    <div class="row">
+                                        <!-- item 1 -->
+                                        <div class="col-sm-4">
+                                            <a href="BasicQuote/index.html">
+                                                <img src="img/Portfolio1.PNG" class="img-rounded img-responsive" style="height: 200px;" alt="Portfolio image">
+                                                <h3 class="text-center">Simple Quote Generator</h3>
+                                            </a>
+                                        </div>
+                                        <!-- item 2 -->
+                                        <div class="col-sm-4">
+                                            <a href="https://nzbradley7.itch.io/seppuku-labyrinth">
+                                                <img src="img/Portfolio2.png" class="img-rounded img-responsive" style="height: 200px;" alt="Portfolio image">
+                                                <h3 class="text-center">Seppuku Labyrinth (Game)</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        <!--contact-->
+        <a name="contact"></a>
+        <div class="contact">
+            <div class="bg-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="contact-title">
+                                <div class="well">
+                                    <h1 class="text-center">Contact</h1>
+                                    <h3 class="text-center">Email: bdc.vanuatu@gmail.com</h3>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-lg-offset-4">
+                                            <div class="btn-group btn-group-justified">
+                                                <a href="https://github.com/nzbradley7" class="btn btn-default btn-lg"><i class="fa fa-github"></i>GitHub</a>
+                                                <a href="https://www.linkedin.com/in/brad-cox-110089116" class="btn btn-default btn-lg"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
